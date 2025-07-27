@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Senba's World - Recipes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background: #fffaf4;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    nav {
+      background: #b22222;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      padding: 8px 16px;
+      border-radius: 6px;
+      transition: background 0.2s;
+    }
+    nav a.active, nav a:hover {
+      background: #f4c542;
+      color: #b22222;
+    }
+    #mainContent {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 0 16px;
+    }
+    #sidebar {
+      min-width: 220px;
+      max-width: 260px;
+      background: #fff4d2;
+      border-radius: 8px;
+      margin-right: 32px;
+      padding: 18px 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      height: fit-content;
+    }
+    #sidebar input[type="text"] {
+      width: 95%;
+      padding: 7px 8px;
+      margin-bottom: 14px;
+      border-radius: 4px;
+      border: 1px solid #ddd;
+      font-size: 1em;
+    }
+    #sidebarList {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    #sidebarList li {
+      margin-bottom: 10px;
+    }
+    #sidebarList a {
+      text-decoration: none;
+      color: #b22222;
+      background: #fff4d2;
+      padding: 4px 8px;
+      border-radius: 4px;
+      display: inline-block;
+      transition: background 0.15s;
+    }
+    #sidebarList a:hover {
+      background: #f4c542;
+      color: #222;
+    }
+    .no-results {
+      color: #999;
+      font-style: italic;
+      margin-top: 8px;
+    }
+    .recipe-header {
+      background-color: #b22222;
+      color: white;
+      text-align: center;
+      padding: 40px 20px 24px 20px;
+      border-radius: 0 0 20px 20px;
+    }
+    .recipe-header h1 {
+      margin: 0;
+      font-size: 2.4em;
+    }
+    .recipe-header p {
+      margin: 10px 0 0;
+      font-style: italic;
+    }
+    .recipe-main {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+      padding: 20px 30px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .recipe-main h2 {
+      color: #b22222;
+      margin-top: 26px;
+    }
+    .recipe-main ul, .recipe-main ol {
+      padding-left: 20px;
+      line-height: 1.6;
+    }
+    .recipe-main li {
+      margin-bottom: 8px;
+    }
+    .note {
+      background-color: #fff4d2;
+      border-left: 6px solid #f4c542;
+      padding: 12px 20px;
+      margin-top: 20px;
+      border-radius: 6px;
+      font-style: italic;
+      color: #444;
+    }
+    .hero-image img {
+      max-width: 100%;
+      border-radius: 12px;
+      display: block;
+      margin: 0 auto;
+    }
+    @media (max-width: 900px) {
+      #mainContent > div {
+        flex-direction: column;
+      }
+      #sidebar {
+        max-width: 100%;
+        margin: 0 0 20px 0;
+      }
+    }
+  </style>
+
+</head>
+<body>
+  <nav>
+    <a id="home-link" href="#" onclick="showContent('home'); return false;">Home</a>
+    <a id="SouthIndian-link" href="#" onclick="showContent('SouthIndian'); return false;">South Indian</a>
+    <a id="NorthIndian-link" href="#" onclick="showContent('NorthIndian'); return false;">North Indian</a>
+    <a id="Snacks-link" href="#" onclick="showContent('Snacks'); return false;">Snacks</a>
+    <a id="Soup-link" href="#" onclick="showContent('Soup'); return false;">Soup</a>
+    <a id="Chutney-link" href="#" onclick="showContent('Chutney'); return false;">Chutney</a>
+    <a id="Sweets-link" href="#" onclick="showContent('Sweets'); return false;">Sweets</a>
+    <a id="Favorites-link" href="#" onclick="showContent('Favorites'); return false;">Favorites</a>
+    <a id="About-link" href="#" onclick="showContent('About'); return false;">About</a>
+    <a id="Contact-link" href="#" onclick="showContent('Contact'); return false;">Contact</a>
+  </nav>
+
+  <div id="mainContent"></div>
+
+  <footer style="text-align:center; font-size:0.9em; color:#999; margin: 50px 0 20px;">
+    &copy; 2025 Senba's World.
+  </footer>
+  <script src="slideshow.js"></script>
+  <script type="module" src="script.js"></script>
+
+</body>
+</html>
