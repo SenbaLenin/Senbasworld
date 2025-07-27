@@ -1,0 +1,48 @@
+.slideshow-container {
+  max-width: 300px; /* reduce from 800px */
+  width: 100%;      /* make it responsive */
+  margin: 30px auto;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.slide {
+  display: none;
+  text-align: center;
+}
+
+.slide img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.slide:hover img {
+  transform: scale(1.05);
+}
+
+.caption {
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  padding: 10px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 28px;
+  margin: 40px 0 10px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+p {
+  text-align: center;
+  font-size: 16px;
+  max-width: 600px;
+  margin: 0 auto 30px;
+  line-height: 1.6;
+}
