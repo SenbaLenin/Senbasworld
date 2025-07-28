@@ -77,7 +77,7 @@ case 'home':
       <h2 style="margin: 0;">Welcome to Senba's World!</h2>
     </div>
     <div class="hero-image" style="margin-top: 30px;">
-      <img src="images/Kitchen1.jpg" alt="Modern kitchen with natural lighting">
+      <img src="images/Kitchen1.jpg" alt="kitchen with natural lighting">
     </div>
     <p style="text-align: center;">Select a menu item to see more content here.</p>
   `;
