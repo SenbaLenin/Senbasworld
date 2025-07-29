@@ -21,7 +21,7 @@ const recipeCategoryInfo = {
     text: "Enjoy quick and tasty snacks from all over India! Find recipes for crispy, spicy, and delightful snacks for any occasion."
   },
   Soup: {
-    img: "images/Soup1.jpg",
+    img: "images/soup2.jpg",
     text: "Warm up with our collection of delicious soups. From light broths to hearty stews, find your new favorite soup recipe."
   },
   Chutney: {
