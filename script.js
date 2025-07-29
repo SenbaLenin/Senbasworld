@@ -9,7 +9,7 @@ const recipes = { SouthIndian, NorthIndian, Snacks, Soup, Chutney,Sweets };
 
 const recipeCategoryInfo = {
   SouthIndian: {
-    img: "images/Senba.jpg",
+    img: "images/Senba2.jpg",
     text: "South Indian cuisine is known for its rich flavors and variety of spices. Enjoy dosas, idlis, sambar, chutneys, and much more. Discover the authentic taste of the south!"
   },
   NorthIndian: {
@@ -107,7 +107,7 @@ case 'About':
           </div>
         </div>  
      <div class="slide fade">
-            <img src="images/Boat.jpg" alt="Image 3">
+            <img src="images/Senba1.jpg" alt="Image 3">
             <div class="caption">Caption for Image 3</div>
           </div>
         </div>     
