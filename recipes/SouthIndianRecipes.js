@@ -47,11 +47,9 @@ export const SouthIndian = [
     detailsFile: 'recipes/SouthIndian/Onepotkurma.html'
   },
 {
-    id:'Kootu',
-    title:'Cabage Kootu',
-    detailsFile: 'recipes/SouthIndian/Kootu.html'
-  }
-
-
+    id:'MochaiPoriyal',
+    title:'MochaiPoriyal',
+    detailsFile: 'recipes/SouthIndian/MochaiPoriyal.html'
+}
 ];
 
