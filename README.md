@@ -69,8 +69,7 @@ Welcome to **Senba’s World**, a clean, responsive, and flexible recipe web app
 ## 📸 Credits & Licensing
 
 - **Author**: [Senba](mailto:senbaleni@gmail.com)  
-- **License**: For personal and educational use. Feel free to modify or redistribute.
-
+- **License**: For personal and educational use.
 ---
 
 _Enjoy cooking with Senba’s World — your one-stop culinary companion!_
