@@ -23,6 +23,6 @@ export const Snacks = [
     id: 'Energyball',
     title: 'Energyball',
     detailsFile: 'recipes/Snacks/Energy.html'
-  },
+  }
 
 ];
