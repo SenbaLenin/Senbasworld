@@ -15,11 +15,6 @@ export const Snacks = [
     detailsFile: 'recipes/Snacks/Guacamole.html'
   },
 {
-    id: 'Energyball',
-    title: 'Energyball',
-    detailsFile: 'recipes/Snacks/Energy.html'
-  },
-{
     id: 'Pasi Payaru',
     title: 'Pasi Payaru sundal',
     detailsFile: 'recipes/Snacks/Pasi Payaru.html'
