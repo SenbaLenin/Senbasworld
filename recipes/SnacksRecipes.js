@@ -18,6 +18,11 @@ export const Snacks = [
     id: 'Pasi Payaru',
     title: 'Pasi Payaru sundal',
     detailsFile: 'recipes/Snacks/Pasi Payaru.html'
-  }
+  },
+ {
+    id: 'Energyball',
+    title: 'Energyball',
+    detailsFile: 'recipes/Snacks/Energy.html'
+  },
 
 ];
