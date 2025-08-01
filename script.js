@@ -140,6 +140,17 @@ case 'About':
         <p>Email: <a href="mailto:senbaleni@gmail.com">Senba's world</a></p>
       </div>
     </div>
+     <!-- 🎉 Birthday Banner -->
+    <div class="birthday-banner" style="margin-top: 20px; padding: 10px; background-color: #ffe0e0; border: 2px dashed #ff69b4;">
+
+    <div style="display: flex; align-items: center; gap: 20px;">
+
+      <h3> Happy Birthday! Raji Anni! 🎂 </h3>
+      <p> 🎈🎈🎈Wishing you a joyful celebration and a fantastic year ahead!🎈🎈🎈</p>
+
+<img src="images/Raji.jpg" alt="Rajiphoto" style="width: 100px; height: 100px; border-radius: 50%;">
+
+    </div>
   `;
   break;
     default:
