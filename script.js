@@ -140,7 +140,7 @@ case 'About':
         <p>Email: <a href="mailto:senbaleni@gmail.com">Senba's world</a></p>
       </div>
     </div>
-     <!-- 🎉 Birthday Banner -->
+    <!-- 🎉 Birthday Banner -->
     <div class="birthday-banner" style="margin-top: 20px; padding: 10px; background-color: #ffe0e0; border: 2px dashed #ff69b4;">
 
     <div style="display: flex; align-items: center; gap: 20px;">
