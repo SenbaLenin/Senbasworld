@@ -50,6 +50,32 @@ export const SouthIndian = [
     id:'MochaiPoriyal',
     title:'MochaiPoriyal',
     detailsFile: 'recipes/SouthIndian/MochaiPoriyal.html'
-}
+},
+    {
+    id:'Cabbage Kootu',
+    title:'Cabbage Kootu',
+    detailsFile: 'recipes/SouthIndian/Cabbage Kootu.html'
+  },
+{
+    id:'Pulikuzhambu',
+    title:'Pulikuzhambu',
+    detailsFile: 'recipes/SouthIndian/Pulikuzhambu.html'
+  },
+{
+    id:'Spinach Kootu',
+    title:'Spinach kootu',
+    detailsFile: 'recipes/SouthIndian/Spinach kootu.html'
+  },
+{
+    id:'Spicy Garlic Podi for dosa',
+    title:'Spicy Garlic Podi for dosa',
+    detailsFile: 'recipes/SouthIndian/Spicy Garlic Podi for dosa.html'
+  },
+{
+    id:'Garlic Peanut Spice Mix Rice',
+    title:'Garlic Peanut Spice Mix Rice',
+    detailsFile: 'recipes/SouthIndian/Garlic Peanut Spice Mix Rice.html'
+  }
 ];
+
 
