@@ -117,18 +117,22 @@ case 'About':
       break;
 
  case 'Favorites':
-      setActiveLink('Favorites-link');
-      content = `
-        <div class="hero-image">
-          <img src="images/veg.avif" alt="Senba">
-        </div>
-        <h2>Favorite Sites</h2>
-        <ul>
-          <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
-          <li><a href="https://www.dinamalar.com/" target="_blank">Dinamalar</a></li>
+  setActiveLink('Favorites-link');
+  content = `
+    <div class="favorites-container">
+      <div class="favorites-links">
+        <h2>Favorite Recipie</h2>
+        <ul>          
+          <li><a href="QuickMeals.html">Easy and Quick Meals</a></li>
+          <li><a href="https://www.Dinamalar.com/" target="_blank">Future Recipie</a></li>
         </ul>
-      `;
-      break;
+      </div>
+      <div class="hero-image">
+        <img src="images/veg.avif" alt="Senba">
+      </div>
+    </div>
+  `;
+break;
   
  case 'Contact':
   setActiveLink('Contact-link');
@@ -231,6 +235,7 @@ window.showContent = showContent;
 window.onload = function() {
   showContent('home');
 };
+
 
 
 
