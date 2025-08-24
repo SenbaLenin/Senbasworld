@@ -1,0 +1,52 @@
+/* Scope styles to recipe content so they don't affect the main layout & header */
+#main-content {
+  font-family: Arial, sans-serif;
+  background-color: #fff8f0; /* light cream background */
+  padding: 40px; /* replaces old body margin */
+  box-sizing: border-box;
+}
+
+/* Container holds recipe text & image side-by-side */
+#main-content .container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 5%;
+}
+
+/* Recipe text column */
+#main-content .recipe {
+  width: 60%;
+}
+
+/* Image column */
+#main-content .image {
+  width: 35%;
+}
+#main-content .image img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Heading styles */
+#main-content h1 {
+  color: #e67829;
+  margin-top: 0; /* prevent top gap under header */
+}
+#main-content h3 {
+  margin-top: 20px;
+}
+
+/* List styles */
+#main-content ul {
+  padding-left: 20px;
+}
+
+/* Special tip box */
+#main-content .family-tip {
+  background-color: #fff1dd;
+  padding: 15px;
+  border-left: 5px solid #e67829;
+  margin-top: 20px;
+  border-radius: 6px;
+}
