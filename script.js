@@ -124,7 +124,7 @@ case 'About':
         <h2>Favorite Recipie</h2>
         <ul>          
           <li><a href="QuickMeals.html">Easy and Quick Meals</a></li>
-          <li><a href="chutneysindex.html">Chutney Recipie</a></li>
+          <li><a href="chutneysindex.html">Chutney Recipes</a></li>
         </ul>
       </div>
       <div class="hero-image">
@@ -235,6 +235,7 @@ window.showContent = showContent;
 window.onload = function() {
   showContent('home');
 };
+
 
 
 
