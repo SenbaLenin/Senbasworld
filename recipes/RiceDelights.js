@@ -11,3 +11,4 @@ export const RiceDelights = [
    { title: 'Sochi', detailsFile: './recipes/New/Sochi.html' },
 
 ];
+
