@@ -26,7 +26,7 @@ const recipeCategoryInfo = {
   },
   Chutney: {
     img: "images/chutney.jpg",
-    text: "Add flavor to your meal with our tangy, spicy, and sweet chutney recipes. Perfect companions for snacks and main courses."
+    text: 'Add flavor to your meal with our tangy, spicy, and sweet chutney recipes. <a href="chutneysindex.html"> Explore Chutney Recipes</a>'
     }, 
   Sweets: {
     img: "images/Southindian1.jpg",
@@ -235,6 +235,7 @@ window.showContent = showContent;
 window.onload = function() {
   showContent('home');
 };
+
 
 
 
