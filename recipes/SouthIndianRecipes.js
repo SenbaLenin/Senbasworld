@@ -36,6 +36,11 @@ export const SouthIndian = [
     title: 'Indian Curd',
     detailsFile: 'recipes/SouthIndian/Yogurt.html'
   },
+    {
+    id:'Pumkin Masala',
+    title:'Pumkin Masala',
+    detailsFile: 'recipes/SouthIndian/Pumkin Masala.html'
+  },
 {
     id:'Vegkuruma',
     title:'Vegkuruma',
@@ -97,6 +102,7 @@ export const SouthIndian = [
     detailsFile: 'recipes/SouthIndian/Garlic Peanut Spice Mix Rice.html'
   }
 ];
+
 
 
 
