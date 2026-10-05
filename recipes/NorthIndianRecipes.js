@@ -13,6 +13,24 @@ export const NorthIndian = [
     id: 'Mashroomtika',
     title: 'Mashroom Tika Masala',
     detailsFile: 'recipes/NorthIndian/Mashroomtika.html'
+  },
+
+{
+    id: 'Rajma',
+    title: 'Rajma',
+    detailsFile: 'recipes/NorthIndian/Rajma.html'
+  },
+{
+    id: 'Palak-paneer',
+    title: 'Palak-paneer',
+    detailsFile: 'recipes/NorthIndian/Palak-paneer.html'
+  },
+{
+    id: 'Mutter-Paneer',
+    title: 'Mutter-Paneer',
+    detailsFile: 'recipes/NorthIndian/Mutter Paneer.html'
   }
 
 ];
+
+
