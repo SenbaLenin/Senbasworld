@@ -14,7 +14,6 @@ export const NorthIndian = [
     title: 'Mashroom Tika Masala',
     detailsFile: 'recipes/NorthIndian/Mashroomtika.html'
   },
-
 {
     id: 'Rajma',
     title: 'Rajma',
@@ -30,7 +29,6 @@ export const NorthIndian = [
     title: 'Mutter-Paneer',
     detailsFile: 'recipes/NorthIndian/Mutter Paneer.html'
   }
-
 ];
 
 
